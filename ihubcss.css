@@ -18,7 +18,8 @@ div{
 	display: block;
     padding: 8px;   
     text-decoration: none;
-    color: #fff
+    color: #fff;
+    text-transform: uppercase;
 }
 .navigation a:hover{
 	opacity: 0.5;
@@ -29,6 +30,8 @@ div{
 .half-div{
 	width:50%;
 	float: left;
+	height: 600px;
+	cursor: pointer;
 }
 .half-div > p{
 	padding: 0px 40px 40px 40px
@@ -36,10 +39,11 @@ div{
 .quarter-div{
 	width:25%;
 	float: left;
+	height: 300px;
+	cursor: pointer;
 }
-.quarter-div p{
-	
-	padding:10px;
+.quarter-div p{	
+	padding:0px 0px 10px 15px;
 }
 h1.announce{
 	font-size: 57px;
