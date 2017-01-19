@@ -28,12 +28,18 @@ div{
 }
 .half-div{
 	width:50%;
+	float: left;
 }
 .half-div > p{
 	padding: 0px 40px 40px 40px
 }
 .quarter-div{
-	width:50%;
+	width:25%;
+	float: left;
+}
+.quarter-div p{
+	
+	padding:10px;
 }
 h1.announce{
 	font-size: 57px;
@@ -42,16 +48,23 @@ h1.announce{
 	margin: 0px;
 }
 p.memo{
-	font-size: 17px;
+	font-size: 24px;
 	color: #fff;
 }
 p.explain{
-	font-size: 57px;
+	font-size: 17px;
 	color: #fff;
 }
 .blacken{
-	background-color: #fff
+	background-color: #000
 }
 .blacken:hover{
-	background-color: #ddd
+	background-color: #2f2f2f
+}
+hr{
+	border-color: #6d6d6d
+}
+.txt-block{
+	color: #797979;
+    font-size: 13px;
 }
