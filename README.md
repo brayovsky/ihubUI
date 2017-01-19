@@ -4,6 +4,9 @@ A project to clone the iHub Nairobi Website user interface.
 # CSS Framework
 No CSS Framework is used in the project
 
+# JS Libraries
+No javascript library is used in the project
+
 # Known issues
 Website is not responsive to modern standards.  
 Only half of the home page is cloned  
